@@ -1,0 +1,6 @@
+require 'faker'
+require 'faker/medical/dea'
+require 'faker/medical/npi'
+require 'faker/medical/patient'
+require 'faker/medical/ssn'
+require 'faker/medical/version'
