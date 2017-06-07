@@ -18,3 +18,14 @@
     email: Faker::Internet.free_email("#{first_name}.#{last_name}"),
     ssn: Faker::Medical::SSN.ssn)
 end
+
+200.times do
+  Address.create(
+    street: Faker::Address.street_address,
+    city: Faker::Address.city,
+    state: Faker::Address.state,
+    zip: Faker::Address.zip_code,
+    employee_id: rand(1...100)
+    )
+end
+
