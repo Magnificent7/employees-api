@@ -1,8 +1,9 @@
 json.id employee.id
-json.name employee.full_name
-json.birthday employee.birthdate
+json.first_name employee.first_name
+json.last_name employee.last_name
+json.birthdate employee.birthdate
 json.email employee.email
-json.say_yo "yo"
+json.ssn employee.ssn
 json.addresses employee.addresses do |address|
   json.street address.street
   json.city address.city
